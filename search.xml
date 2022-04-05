@@ -3,7 +3,9 @@
   <entry>
     <title></title>
     <url>/2022/04/05/hexo-next%20%E6%90%AD%E5%BB%BA/</url>
-    <content><![CDATA[<h1 id="hexo-next-搭建"><a href="#hexo-next-搭建" class="headerlink" title="hexo-next 搭建"></a>hexo-next 搭建</h1><h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><p>hexo 是一个快速、简洁且高效的博客web框架。<a href="https://hexo.io/zh-cn/">安装</a> 参考官网：<a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
+    <content><![CDATA[<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">hexo-next</span> <span class="string">搭建</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><p>hexo 是一个快速、简洁且高效的博客web框架。<a href="https://hexo.io/zh-cn/">安装</a> 参考官网：<a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
 <p>如果<code>npm install -g hexo-cli</code> 安装时 block，可加上 <code> --registry=https://registry.npm.taobao.org</code> </p>
 <p>完整命令：</p>
 <p><code> npm install -g hexo-cli --registry=https://registry.npm.taobao.org</code></p>
@@ -13,8 +15,6 @@
 <li><code>npx hexo init</code>  必须保证整个目前为空，不能有<code>.</code>隐藏文件、目录；最好直接创建一个新的目录</li>
 <li><code>npx hexo s --debug</code> 调试页面出现<code>&#123;% extends ‘_layout.swig‘ %&#125;... </code>错误，因为hexo 5.0之后不再提供<code>swig</code>插件，需要手动安装 <code>npm i hexo-renderer-swig</code></li>
 </ol>
-
-
 <h2 id="next"><a href="#next" class="headerlink" title="next"></a>next</h2><p><code>next</code>主题安装可参考：<a href="https://theme-next.iissnan.com/getting-started.html">https://theme-next.iissnan.com/getting-started.html</a></p>
 <p>可供参考配置：</p>
 <ul>
